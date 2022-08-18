@@ -1,0 +1,35 @@
+﻿body {
+    font-size:18pt;
+}.BAlis{
+     margin-left:360px;
+     margin-top:-400px;
+        width:500px;
+        height:80px;
+        
+ }
+.KAlis {
+    margin-left: 300px;
+    width: 500px;
+    height: 80px;
+}
+.TAlis {
+    margin-left: 300px;
+    width: 500px;
+    height: 80px;
+}
+ .all{
+     width:100%;
+     height:100%;
+ }
+ .textbox{
+     width:100%;
+     height:100%;
+     background-color:bisque;
+
+ }.eklebuton{
+      background-color:chartreuse;
+  }
+.Time{
+    float:right;
+    margin-top:-400px;
+}

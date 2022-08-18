@@ -1,0 +1,77 @@
+﻿body {
+    font-family: 'Trebuchet MS',Arial,'Comic Sans MS';
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.resim {
+    width: 1536px;
+    height: 720px;
+    background-image: url(Resim/wallpaper2you_323860.jpg);
+    position: relative;
+}
+.panel {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0;
+    right:0;
+    width: 400px;
+    height: 301px;
+    background-color: aliceblue;
+}
+.Buton{
+    color:#00ffff;
+    background-color:#b6ff00;
+    color:white;
+}
+.label3 {
+    color: red;
+    font-family: cursive;
+    font-size:18px;
+    margin-top:15px;
+    margin-left:10px;
+    display:inline;
+    border-radius:8px;
+}
+.Label4{
+    font-size:12px;
+}
+img {
+    
+    object-fit: cover;
+    float:right;
+    height:70px;
+    width:70px;
+}
+.TextBox {
+    border-radius: 5px;
+    background-color: aqua;
+    
+}
+.img-buton{
+    width:20px;
+    height:20px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #eee;
+    border-left: 3px solid red;
+}
+.Kullanici{
+    font-size:20px;
+    color:aqua;
+}
+.Aa{
+    margin-left: 300px;
+    margin-top: -250px;
+    width: 500px;
+    height: 80px;
+}.Zaman{
+    margin-left:800px;
+     width:100px;
+ }

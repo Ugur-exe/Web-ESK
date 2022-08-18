@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="CssDosyasi.css" rel="stylesheet" />
+    <link href="Admin.css" rel="stylesheet" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Et Ve Süt Kurumu</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }  
+        .auto-style2 {
+            width: 126px;
+        }
+        .auto-style5 {
+            width: 134px;
+        }
+        .auto-style6 {
+            width: 132px;
+        }
+        .auto-style8 {
+            width: 159px;
+        }
+        .auto-style10 {
+            width: 105px;
+            height: 121px;
+        }
+        .auto-style11 {
+            text-align: center;
+            font-size: 70px;
+            background-color: burlywood;
+            font-family: American Typewriter, serif;
+            width: 1141px;
+            height: 121px;
+        }
+        .auto-style12 {
+            width: 997px;
+        }
+        </style>
+</head>
+<body>
+     <form id="form1" runat="server">
+    
+         <table class="auto-style1">
+             <tr>
+                 <td class="auto-style11">
+                     <asp:ImageButton ID="ImageButton1" runat="server" CssClass="ImageButon" Height="80px" ImageUrl="~/Resim/kurum-logo.png.png" Width="92px" />
+                     Envanter - Yönetim Paneli&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </td>
+                 <td class="auto-style10">
+                     &nbsp;&nbsp;
+                     <asp:Label ID="Label1" runat="server" CssClass="Kullanici" ForeColor="Red" Text="Label"></asp:Label>
+                     <asp:Button ID="Button7" runat="server" Height="81px" Text="Çıkış" Width="120px" CssClass="Button7" OnClick="Button7_Click" />
+                 </td>
+             </tr>
+         </table>
+         <table class="auto-style1">
+            <tr>
+                <td class="auto-style12">
+                    <asp:Button ID="Button1" runat="server" CssClass="AllButonlar" Height="70px" Text="Depo" Width="140px" OnClick="Button1_Click"  />
+                </td>
+                <td class="auto-style8">
+                    <asp:Label ID="Label2" runat="server" Text="Label" CssClass="Tarih"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style2">
+            <tr>
+                <td>
+                    <asp:Button ID="Button2" runat="server" CssClass="AllButonlar" Height="70px" Text="Hayvan Alım" Width="140px" OnClick="Button2_Click" />
+                </td>
+            </tr>
+        </table>
+       
+        <table class="auto-style5">
+            <tr>
+                <td>
+                    <asp:Button ID="Button5" runat="server" CssClass="AllButonlar" Height="70px" Text="Kombina Transfer" Width="140px" OnClick="Button5_Click" />
+                    
+                </td>
+            </tr>
+        </table>
+        <table class="auto-style6">
+            <tr>
+                <td>
+                    <asp:Button ID="Button8" runat="server" CssClass="AllButonlar" Height="70px" Text="Sevkiyat" Width="140px" OnClick="Button8_Click" />
+                    
+                    <br />
+                    
+                    
+                </td>
+            </tr>
+        </table>
+         <br />
+         <br />
+         <br />
+         <br />
+          <div class="merkez">
+             Et Ve Süt Kurumu Genel Müdürlüğü
+            </div>
+
+        
+   
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+       
+    </form>
+</body>
+</html>

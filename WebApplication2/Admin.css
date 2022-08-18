@@ -1,0 +1,53 @@
+﻿body {
+    font-family: 'Trebuchet MS',Arial,'Comic Sans MS';
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.baslik {
+    text-align: center;
+    font-size: 70px;
+    background-color: burlywood;
+    font-family: American Typewriter, serif; 
+}
+.AllButonlar {
+    background-color: #ffd800;
+    border-radius: 5px 5px 5px 5px;
+    border: 2px solid #ff0000;
+}
+.AllButonlar:hover{
+    background-color:#b6ff00;
+    border-bottom:3px solid #f90;
+}
+.Bilgi{
+    margin-bottom:0; 
+}
+.Label1{
+    margin-top:150px;
+    margin-left:150px;
+}
+.merkez {
+    color: red;
+    font-size: 25px;
+    width: 400px;
+    left:580px;
+    text-align: center;
+    bottom: 0px;
+    position: fixed;
+}
+.Button7{
+    background-color:khaki;
+}
+.duyuru{
+    margin-top:-500px;
+    margin-left:200px;
+    margin-right:150px;
+}
+.ImageButon{
+    top:0px;
+    float:left;
+}.Tarih{
+     font-size:15pt;
+ }
